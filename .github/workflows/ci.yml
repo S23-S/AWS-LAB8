@@ -28,7 +28,7 @@ jobs:
       run: chmod +x ./node_modules/.bin/mocha
 
     - name: Run tests
-      run: npx mocha
+      run: npm mocha
 
     # Fallback: If mocha still fails, install globally and run
     - name: Install mocha globally (fallback)
