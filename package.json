@@ -1,0 +1,22 @@
+{
+  "name": "aws-lab8",
+  "version": "1.0.0",
+  "description": "Cloud Computing LAB 8",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "express": "^5.1.0",
+    "mocha": "^11.7.1",
+    "should": "^13.2.3",
+    "supertest": "^7.1.1"
+  }
+}
